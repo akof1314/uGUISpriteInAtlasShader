@@ -102,7 +102,7 @@
 			float _Distortion;
 			float _PosX;
 			float _PosY;
-			Vector _UvRect;
+			float4 _UvRect;
 
 			float4 twist(sampler2D tex, float2 uv, float time)
 			{
